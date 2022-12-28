@@ -1,0 +1,13 @@
+.header {
+  height: 80px;
+  background: var(--primary);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-items: flex-start;
+  padding: 0 10px 0 10px
+}
+
+.header h1{
+  margin: 0;
+}

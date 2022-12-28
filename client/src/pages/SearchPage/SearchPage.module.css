@@ -1,0 +1,7 @@
+.searchPage {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 30px;
+}

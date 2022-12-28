@@ -1,0 +1,8 @@
+.mainPage {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 30px;
+}

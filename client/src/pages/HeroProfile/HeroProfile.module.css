@@ -1,0 +1,37 @@
+.hero {
+  display: grid;
+  grid-template-columns: [start]1fr[middle]1fr[end];
+  grid-template-rows: auto auto 1fr;
+  align-content: flex-start;
+  gap: 30px;
+  justify-items: center;
+}
+
+.name {
+  grid-column: start / end;
+}
+
+.image {
+  grid-column: start / middle;
+}
+
+.description {
+  grid-column: middle / end;
+}
+
+.tags {
+  grid-column: start / middle;
+  align-self: flex-start;
+}
+
+.tags h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto 1fr;
+    }
+}
